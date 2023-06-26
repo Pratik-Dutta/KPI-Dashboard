@@ -1,0 +1,355 @@
+body {
+    margin: 0;
+    background-color: rgb(34, 37, 49);
+}
+
+.title_image {
+   display: flex;
+   flex-direction: row;
+   margin-top: 7px;
+}
+
+.title {
+   display: flex;
+   flex-direction: row;
+   white-space: pre;
+}
+
+.logo_title {
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+   /*margin-left: 10px;*/
+   margin-top: 16px;
+   /*flex: 6;*/
+}
+
+.drop_down_list_title {
+   display: flex;
+   flex-direction: row;
+   margin-top: 29px;
+}
+
+.drop_down_list {
+   display: flex;
+   flex-direction: row;
+   width: 200px;
+   margin-top: 10px;
+}
+l, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+  background
+/* Drop down list - background color, text color and border color */
+.Select-contro-color: #335476;
+  color: white;
+}
+
+.Select-control{
+  border: 2px solid green;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+  color: white;
+}
+
+/* width of drop down list and page scrollbar */
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+/* background color of drop down list and page scrollbar */
+::-webkit-scrollbar-track {
+  background-color: #40E0D0 !important;
+  display: block !important;
+}
+
+/* background color of drop down list and page scrollbar (handle) */
+::-webkit-scrollbar-thumb {
+   background-color: #CCCCFF;
+}
+
+/* background color of drop down list and page scrollbar (handle on hover) */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #FFBF00 !important;
+}
+
+.title_drop_down_list {
+   display: flex;
+   flex-direction: row;
+   gap: 3px;
+}
+
+.title_and_drop_down_list {
+   display: flex;
+   flex-wrap: wrap;
+   /*position: fixed;*/
+   justify-content: center;
+   gap: 30px;
+   top: 0;
+   background-color: #335476;
+   width: 100%;
+}
+
+.card_size {
+   background-color: #335476;
+   width: 250px;
+   height: 160px;
+}
+
+.flex_container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 20px;
+   gap: 10px;
+}
+
+.chart {
+   display: flex;
+   flex-direction: row;
+   position: absolute;
+   margin-top: 65px;
+   margin-left: 40px;
+}
+
+.text_graph_column {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.card_title {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 5px;
+}
+
+.monthly_value {
+   display: flex;
+   flex-direction: row;
+}
+
+.value_indicator {
+   display: flex;
+   flex-direction: row;
+   margin-top: 4px;
+}
+
+.value_and_indicator {
+   display: flex;
+   flex-direction: row;
+   gap: 3px;
+   justify-content: center;
+   margin-top: -10px;
+}
+
+.indicator_column {
+   display: flex;
+   flex-direction: column;
+}
+
+.indicator_column1 {
+   display: flex;
+   flex-direction: column;
+}
+
+.monthly_difference_value {
+   display: flex;
+   flex-direction: row;
+}
+
+.monthly_pct_change {
+   display: flex;
+   flex-direction: row;
+}
+
+.difference_value_row {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   justify-content: center;
+}
+
+.text_previous_month {
+   display: flex;
+   flex-direction: row;
+   margin-left: 65px;
+   margin-top: -12px;
+}
+
+.difference_value_column {
+   display: flex;
+   flex-direction: column;
+   margin-top: 35px;
+}
+
+.donut_chart_size {
+   background-color: #335476;
+   width: 250px;
+   height: 196.8px;
+}
+
+.donut_chart_text {
+   display: flex;
+   flex-direction: row;
+   position: absolute;
+   margin-top: 90px;
+}
+
+.chart_container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 10px;
+   gap: 10px;
+}
+
+.donut_chart_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.funnel_chart_size {
+  background-color: #335476;
+  width: 350px;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.create_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.bar_chart_size {
+  background-color: #335476;
+  width: 350px;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.funnel_bar_chart_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.stack_bar_chart_size {
+  background-color: #335476;
+  width: 930px;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.percent_bar_chart_size {
+  background-color: #335476;
+  width: 465px;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.bar_chart_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.background_size1 {
+  background-color: #335476;
+  width: 456px;
+  height: 147.5px;
+}
+
+.chart_text1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.average_sales_bar_chart1 {
+  display: flex;
+  flex-direction: row;
+  width: 365px;
+  height: 270px;
+  margin-top: -95px;
+  margin-left: -25px;
+}
+
+.average_sales_bar_chart_row1 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+
+.average_sales_bar_chart_column1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.background_size2 {
+  background-color: #335476;
+  width: 456px;
+  height: 147.5px;
+  margin-top: 5px;
+  position: absolute;
+}
+
+.chart_text2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.average_sales_bar_chart2 {
+  display: flex;
+  flex-direction: row;
+  width: 365px;
+  height: 270px;
+  margin-top: -90px;
+  margin-left: 10px;
+}
+
+.average_sales_bar_chart_row2 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+
+.average_sales_bar_chart_column2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.average_sales_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.average_sales_text {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 10px;
+  white-space: pre;
+}
+
+.average_sales_value {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.average_sales_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.average_sales_chart_column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
